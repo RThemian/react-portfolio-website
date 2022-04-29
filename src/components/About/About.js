@@ -1,5 +1,6 @@
 import classes from './About.module.css'
 import PageHeader from '../PageHeader/PageHeader';
+import profileMe from './../../images/profileMe.PNG'
 
 const About = () => {
     return (
@@ -10,10 +11,10 @@ const About = () => {
                     <h2>Hello there! I'm Tomas</h2>
                     <p>
                         Software developer based in Fort Collins, Colorado, USA. 
-                        Computer science and math teacher for 11 years.
+                        Computer science, math, and Spanish teacher for 11 years
                     </p>
                     <div className={classes.Photo}>
-                        <img className={classes.Me} src ={} alt = 'me'></img>
+                        <img className={classes.Me} src ={profileMe} alt = 'me'></img>
                     </div>
                 </div>
             </div>

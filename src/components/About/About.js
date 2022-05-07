@@ -11,7 +11,8 @@ const About = () => {
                     <h2>Hello there! I'm Tomas</h2>
                     <p>
                         Software developer based in Fort Collins, Colorado, USA. 
-                        Computer science, math, and Spanish teacher for 11 years
+                        Computer science, math, and Spanish teacher for 11 years.
+                        I problem solve in ReactJS
                     </p>
                     <div className={classes.Photo}>
                         <img className={classes.Me} src ={profileMe} alt = 'me'></img>

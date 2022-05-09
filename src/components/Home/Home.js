@@ -6,8 +6,8 @@ const Home = () => {
     return ( 
     <div className = {classes.Home}>
         <div className = {classes.Container}>
-            <h1 className = {classes.Hello}>Hello, world.</h1>
-            <h1>Welcome to my website</h1>
+            <h1 className = {classes.Hello}>Hello Fellow Coders!</h1>
+            <h1>Welcome to my PORTO-FOLIO</h1>
         </div>
        
         <img className = {classes.Code} src = {codeSymbol} alt = 'codeSymbol' ></img>

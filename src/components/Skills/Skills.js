@@ -36,12 +36,13 @@ const Skills = () => {
     return (  
     <div className={classes.Skills}>
         <PageHeader title = {"What about the Skillset?"} />
-        <img className = {classes.Icon} src = {codeThinking} alt = 'CodeThinking'/>
         <p>
             Get better by 1% per day! I take everyday to learn. 
             Below are some of the computing languages, toolkits, frameworks, 
             and libraries that I worked with and like:
         </p>
+        <img className = {classes.Icon} src = {codeThinking} alt = 'CodeThinking'/>
+        
         <div className = {classes.Container}>
             
             {totalSkills.map(skills => {

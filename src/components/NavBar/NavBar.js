@@ -20,6 +20,7 @@ const NavBar = () => {
                     <li>
                         <a href ="/#contact" >Contact</a>
                     </li>
+                    
                 </ul>
             </nav>
         </div>
@@ -27,3 +28,4 @@ const NavBar = () => {
 }
  
 export default NavBar;
+

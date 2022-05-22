@@ -34,10 +34,10 @@ const totalSkills = [backendSkills, frontendSkills, otherSkills]
 
 const Skills = () => {
     return (  
-    <div className={classes.Skills}>
+    <div className={classes.Skills} id = "skills">
         <PageHeader title = {"What about the Skillset?"} />
         <p>
-            Get better by 1% per day! I take everyday to learn. 
+            Get better by 1% per day!
             Below are some of the computing languages, toolkits, frameworks, 
             and libraries that I worked with and like:
         </p>

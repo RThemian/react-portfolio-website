@@ -2,6 +2,8 @@ import classes from './Home.module.css'
 import codeSymbol from './../../images/codeSymbol.png'
 import undraw_connected_world_wuay from './../../images/undraw_connected_world_wuay.svg'
 
+
+
 const Home = () => {
     return ( 
     <div className = {classes.Home}>

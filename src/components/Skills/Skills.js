@@ -7,24 +7,26 @@ const listTitleStyle = {fontWeight: 900, color:'#9B1FE8', marginBottom:'4px', te
 const backendSkills = 
     <ul>
         <li style={listTitleStyle}>BACKEND</li>
-        <li>JAVA with SPRING BOOT</li>
-        <li>PYTHON DJANGO</li>
-        <li>Firebase</li>
+
+        
+        <li className='px-2'>Java with Spring Boot</li>
+        <li className='px-2'>Python Django</li>
+        <li className='px-2'>Firebase</li>
     </ul>
 
 const frontendSkills =
-    <ul>
+    <ul >
         <li style={listTitleStyle}>FRONTEND</li>
-        <li>ReactJS - HTML - CSS - REDUX / NATIVE</li>
-        <li>UI: Bootstrap and MUI</li>
+        <li className='px-2'>ReactJS - HTML - CSS - REDUX / NATIVE</li>
+        <li className='px-2'>UI: Bootstrap and MUI</li>
     </ul>
 
 const otherSkills = 
     <ul>
         <li style={listTitleStyle}>OTHER</li>
-        <li>VERSION CONTROL:</li>
-        <li>GitHub - VS Code</li>
-        <li>Google Suite - Apple Suite</li>
+        <li className='px-2'>VERSION CONTROL:</li>
+        <li className='px-2'>GitHub - VS Code</li>
+        <li className='px-2  pb-1' >Google Suite - Apple Suite</li>
     </ul>
 
 const totalSkills = [backendSkills, frontendSkills, otherSkills]
@@ -35,13 +37,14 @@ const totalSkills = [backendSkills, frontendSkills, otherSkills]
 const Skills = () => {
     return (  
     <div className={classes.Skills} id = "skills">
+        
         <PageHeader title = {"What about the Skillset?"} />
-        <p>
-            Get better by 1% per day!
-            Below are some of the computing languages, toolkits, frameworks, 
+
+        
+        <h1 className = 'px-3'>
+            Get better by 1% per day! Below are some of the computing languages, toolkits, frameworks, 
             and libraries that I worked with and like:
-        </p>
-        <img className = {classes.Icon} src = {codeThinking} alt = 'CodeThinking'/>
+        </h1>
         
         <div className = {classes.Container}>
             

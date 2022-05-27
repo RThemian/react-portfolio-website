@@ -4,9 +4,9 @@ import classes from './Teaching.module.css';
 
 const Teaching = () => {
     return ( 
-    <div id = "teaching" className = 'p-2 px-3'>
+    <div id = "teaching" >
         <PageHeader title = {"Science and Math Education"} />
-        <h1 className='text-xl'>Teaching Computer Science, Math, and Physics</h1>
+        <h1 className = 'text-xl p-2 px-3'>Teaching Computer Science, Math, and Physics</h1>
         <div className={classes.TeachingContent}>
             <div className={classes.Paragraph}>
                 <p className = 'px-5 font-mono'>

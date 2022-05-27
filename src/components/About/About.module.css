@@ -9,6 +9,7 @@
 }
 .AboutMe .Container {
     display: flex;
+    grid-row: span;
     
 }
 
@@ -24,8 +25,3 @@
     justify-content: center;
 }
 
-.AboutMe .Container .Photo .Me {
-    height: 300px;
-    border-radius: 10%;
-    display: flex;
-}

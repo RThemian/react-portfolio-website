@@ -7,8 +7,8 @@ import codingMe from './../../images/codingMe.jpg'
 
 const Home = () => {
     return ( <>
-    <div className = {classes.Home}>
-        <div className = {classes.Container}>
+    <div >
+        <div className = ''>
             <h1 className = 'font-extrabold font-serif text-4xl text-white ' >Hello Fellow Coders!</h1>
             <h1>Welcome to my PORTO-FOLIO</h1>
         </div>

@@ -9,15 +9,15 @@ const About = () => {
             <div className='grid-cols-2'>
                 <div className={classes.Text}>
                     
-                    <h2>Hello there! I'm Tomas</h2>
+                    <h2 className='px-2'>Hello there! I'm Tomas Paul Cservenak.</h2>
                     
-                    <p>
+                    <p className='px-2'>
                         Software developer based in Fort Collins, Colorado, USA. 
                         Computer science, math, and Spanish teacher for 11 years.
-                        I problem solve in ReactJS
-                    </p>
+                        I problem solve in ReactJS, Java, Javascript among others
+                    </p >
                     <div className={classes.Photo}>
-                        <img className='rounded-md' src ={profileMe} alt = 'me'></img>
+                        <img className='rounded-md px-2' src ={profileMe} alt = 'me'></img>
                     </div>
                 </div>
             </div>

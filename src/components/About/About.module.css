@@ -4,7 +4,8 @@
 .AboutMe {
     background-color: black;
     color: white;
-    padding: 5%;
+    padding-right: 1pc
+    
     
 }
 .AboutMe .Container {
@@ -16,8 +17,8 @@
 
 .AboutMe .Container .Text {
     width: 47%;
-    margin-left: 3;
-    padding: 1.5rem;
+    
+    
 }
 
 .AboutMe .Container .Photo {

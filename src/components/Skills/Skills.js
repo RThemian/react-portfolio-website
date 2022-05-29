@@ -41,7 +41,7 @@ const Skills = () => {
         <PageHeader title = {"What about the Skillset?"} />
 
         
-        <h1 className = 'px-3'>
+        <h1 className = 'px-3 pb-2'>
             Get better by 1% per day! Below are some of the computing languages, toolkits, frameworks, 
             and libraries that I worked with and like:
         </h1>

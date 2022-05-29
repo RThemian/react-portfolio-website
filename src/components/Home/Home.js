@@ -1,7 +1,7 @@
-import classes from './Home.module.css'
+
 import codeSymbol from './../../images/codeSymbol.png'
 import mountainMe from './../../images/mountainMe.jpg'
-import codingMe from './../../images/codingMe.jpg'
+
 
 
 

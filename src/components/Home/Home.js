@@ -1,4 +1,4 @@
-
+import React from 'react';
 import codeSymbol from './../../images/codeSymbol.png'
 import mountainMe from './../../images/mountainMe.jpg'
 

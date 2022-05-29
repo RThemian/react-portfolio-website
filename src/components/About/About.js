@@ -1,6 +1,6 @@
-import classes from './About.module.css'
+import classes from './About.module.css';
 import PageHeader from '../PageHeader/PageHeader';
-import profileMe from './../../images/profileMe.png'
+import profileMe from './../../images/profileMe.png';
 
 const About = () => {
     return (

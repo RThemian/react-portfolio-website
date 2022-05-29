@@ -16,8 +16,8 @@ const About = () => {
                         Computer science, math, and Spanish teacher for 11 years.
                         I problem solve in ReactJS, Java, Javascript among others
                     </p >
-                    <div className={classes.Photo}>
-                        <img className='rounded-md px-2' src ={profileMe} alt = 'me'></img>
+                    <div className='relative'>
+                        <img className='rounded-md px-2 content-center' src ={profileMe} alt = 'me'></img>
                     </div>
                 </div>
             </div>

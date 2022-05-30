@@ -17,7 +17,7 @@ const About = () => {
                         I problem solve in ReactJS, Java, Javascript among others
                     </p >
                     <div className='relative'>
-                        <img className='rounded-md px-2 content-center' src ={profileMe} alt = 'me'></img>
+                        <img className='rounded-md items-center right-0 content-center' src ={profileMe} alt = 'me'></img>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className = 'text-white text-2xl text-center px-16'>I'm Tomas, welcome to my PORTFOLIO</h1>
         
        
-        <img className = 'rounded-full px-2 py-3 absolute bottom-0 z-10 object-scale-down' src = {codeSymbol} alt = 'codeSymbol' ></img>
+        <img className = 'rounded-full  py-3 absolute bottom-0 px-12 z-10 object-scale-down' src = {codeSymbol} alt = 'codeSymbol' ></img>
 
         <img className = 'rounded-full px-2 py-3 z-0' src = {mountainMe} alt = "profileMe"></img>
         </div>

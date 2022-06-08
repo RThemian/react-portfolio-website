@@ -19,25 +19,46 @@
     position: absolute;
     top: 15%;
     left: 2%;
-    color: white;
+    color: whitesmoke;
+    display: contents;
 }
-.Home .Container .Hello {
+.Hello {
     font-size: 63px;
     z-index: 999;
+    text-align: center;
+    
+    
 }
+
+ .Headline {
+     
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    z-index: 999;
+    
+    
+}
+
+
+
 .Home .Code {
     position: absolute;
     height: 24%;
     bottom: 0;
-    left: 2%;
+    left: 30.5%;
+    z-index: 9;
+    
 }
 
-.Home .ConnectedWorld {
-    height: 70%;
+.MountainMe {
+    height: 80%;
     position: absolute;
-    right: 10%;
-    top: 20%;
-    z-index: 0;
-    opacity: 50%;
-    animation: rotator;
+    padding-right: 60%;
+    left: 5%;
+    content: normal;
+    top: 40%;
+        
+    border-radius: 50%;
 }
+

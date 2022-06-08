@@ -1,0 +1,38 @@
+.Container {
+
+    background-color: #141313;
+    color: white;
+    padding-bottom: 5%;
+    
+    
+
+}
+
+
+.Form {
+  
+    color: red;
+    
+    
+    
+    text-align: center;
+    display: list-item;
+    
+}
+
+.Form form {
+    
+    padding: 1rem;
+    
+   
+    
+}
+
+.Form input {
+    padding: 0.5rem;
+    border-color: blue;
+    margin-bottom: 1.5rem;
+    border-radius: 7%;
+    
+}
+

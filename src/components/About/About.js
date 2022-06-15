@@ -21,7 +21,9 @@ const About = () => {
                     <div className={classes.Photo}>
                         <img className={classes.Me} src ={profileMe} alt = 'me'></img>
                     </div>
-                    <div className={classes.GitHub}>
+                    <label id ="gitHub">Find me on GitHub</label>
+                    <div className={classes.Photo}>
+                        
                         <a href="https://github.com/RThemian" target="_blank" rel="noreferrer">
                             <img className={classes.Me} src ={gitHubIcon} alt = 'gitHub'></img>
                         </a>

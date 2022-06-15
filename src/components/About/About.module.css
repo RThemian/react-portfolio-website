@@ -20,12 +20,18 @@
 }
 
 .AboutMe .Container .Photo {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    justify-content:space-between;
+   
+
 }
+
 
 .AboutMe .Container .Photo .Me {
     height: 300px;
     border-radius: 10%;
-    display: flex;
+    display: inline-block;
+    padding-inline: 50%;
+    padding-right: 50%;
+    
 }

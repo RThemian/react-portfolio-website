@@ -1,6 +1,7 @@
 import classes from './About.module.css'
 import PageHeader from '../PageHeader/PageHeader';
 import profileMe from './../../images/profileMe.PNG'
+import gitHubIcon from './../../images/gitHubIcon.svg'
 
 const About = () => {
     return (
@@ -14,9 +15,20 @@ const About = () => {
                         Computer science, math, and Spanish teacher for 11 years.
                         I problem solve in ReactJS
                     </p>
+                    
+
+                    
                     <div className={classes.Photo}>
                         <img className={classes.Me} src ={profileMe} alt = 'me'></img>
                     </div>
+                    <div className={classes.GitHub}>
+                        <a href="https://github.com/RThemian" target="_blank" rel="noreferrer">
+                            <img className={classes.Me} src ={gitHubIcon} alt = 'gitHub'></img>
+                        </a>
+                    </div>
+                    
+       
+       
                 </div>
             </div>
         </div>

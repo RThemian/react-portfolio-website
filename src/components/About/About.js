@@ -3,6 +3,7 @@ import PageHeader from '../PageHeader/PageHeader';
 import profileMe from './../../images/profileMe.PNG'
 import gitHubIcon from './../../images/gitHubIcon.svg'
 
+
 const About = () => {
     return (
         <div className={classes.AboutMe} id="about">
